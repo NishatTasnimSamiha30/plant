@@ -1,0 +1,25 @@
+.menubar{
+    display: flex;
+    justify-content: space-between;       
+    align-items: center;    
+    background-color: rgba(160, 129, 209, 0.856);
+    border: 3px solid #2d3135;
+    margin: 0;
+    padding: 2px;                 
+}
+li {
+    float: left;
+  }
+  li::before{
+    content:url(https://fontawesome.com/icons/rug?f=classic&s=solid)
+  }
+  li:hover {
+    transform: scale(1.0);
+    border: 10px solid #111011c2;
+  }
+  img {
+    position: center;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  } 
